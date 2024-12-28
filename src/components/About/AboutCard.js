@@ -9,12 +9,11 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Anurag Rathi </span>
-            from <span className="purple"> Muzaffarnagar,Uttar pradesh, India.</span>
+            from <span className="purple"> Muzaffarnagar ,India</span>
             <br />
-            I am currently completing my bachelors in gl bajaj college greater noida.
+            I am currently studying in G.L bajaj Greater noida .
             <br />
-            I have completed my primary and secondary education  from D.A.V public school mansurpur muzaffarnagar.
-            
+           I am completing by btech and completed my 12th from D.A.V public school mansurpur,muzaffarnagar.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -24,7 +23,7 @@ function AboutCard() {
               <ImPointRight /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Cooking
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling

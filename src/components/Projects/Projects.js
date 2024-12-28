@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import BAYAVA from "../../Assets/Projects/BAYAVA.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import cow from "../../Assets/Projects/cow.jpeg";
+import projects from "../../Assets/Projects/react.jpeg";
 
 function Projects() {
   return (
@@ -19,24 +19,25 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={BAYAVA}
+              imgPath={cow}
               isBlog={false}
-              title="BAYAVA KAMDHENU"
-              description="A socilized project in the field of the ayurvedic products made from the derived products of cow and nature."
+              title="Chatify"
+              description="A website for cow protection,conservation and donation for a bigger cause. "
               ghLink="https://github.com/Anuragrathi0001/bayava-kamdhenu"
-             
+              demoLink="#"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={projects}
               isBlog={false}
-              title="BAYAVA-KAMDHENU"
-              description="Server made from node js for the web application"
-              ghLink="https://github.com/Anuragrathi0001/BAYAVA-server"
+              title="React projects"
+              description="it contains react projects."
+              ghLink="https://github.com/Anuragrathi0001/react-source-"
+              demoLink="#"
             />
-          </Col>
+          </Col> 
         </Row>
       </Container>
     </Container>
